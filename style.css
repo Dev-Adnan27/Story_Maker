@@ -14,7 +14,7 @@
     position: fixed;
     margin-top: 130vh;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
     padding-bottom: 150px;
     font-weight: 600;
     font-size: 23px;
@@ -29,3 +29,16 @@
 .right {
     right: 0;
 }
+*::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #e3c311;
+    border-radius: 5px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background-color: none;
+  }
+  
