@@ -1,0 +1,31 @@
+#logoBd {
+    width: 100vh;
+    z-index: -1;
+    position: fixed;
+    top: 18%;
+    filter: grayscale(0.7);
+}
+#speaker{
+    font-size: xx-large;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    margin-top: 130vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 150px;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.left {
+    left: 0;
+    border-right: 3px solid;
+
+}
+
+.right {
+    right: 0;
+}
